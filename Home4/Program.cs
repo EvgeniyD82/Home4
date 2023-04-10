@@ -96,6 +96,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             int index2 = initial3.Length - 1;
             string result = initial3.Remove(index2);
             Console.WriteLine(result);
+
             string result2 = string.Concat(result, "?");
             Console.WriteLine(result2);
         }
