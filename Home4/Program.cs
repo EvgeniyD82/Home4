@@ -82,7 +82,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             string rem = "Good";
             int index = rem.Length;
             string initial1 = initial.Substring(index);
-
             Console.WriteLine(initial);
             Console.WriteLine(initial1);
 
@@ -97,6 +96,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             int index2 = initial3.Length - 1;
             string result = initial3.Remove(index2);
             Console.WriteLine(result);
+
             string result2 = string.Concat(result, "?");
             Console.WriteLine(result2);
         }
